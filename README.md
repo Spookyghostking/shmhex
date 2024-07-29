@@ -20,7 +20,7 @@ The primary use-case is covered by the `shmhex_shmhexdump` function. The functio
 buffer - buffer where the output will be written
 
 Note: the when the buffer is filled, a null charracter is appended at the end,
-making the output is a valid null terminated string.
+making the output a valid null terminated string.
 
 buffer_size - (in bytes) pretty self-explanatory
 
