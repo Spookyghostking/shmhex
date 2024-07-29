@@ -59,8 +59,8 @@ a hexadecimal representation.
      void shmhex_shmexify_byte(char* buffer, buffer_size, uint8 data);
      void shmhex_shmhexify_address(char* buffer, size_t buffer_size, void* address);
 
-Both functions dump the result into their respective buffer, the byte needing
-a buffer of at least 3 bytes, and the address needing 17 in 64-bit architecture
+Both functions dump the result into their respective buffer, the byte function needing
+a buffer of at least 3 bytes, and the address function needing 17 in 64-bit architecture
 (two for each byte, and one for the null terminator).
 
 Note: neither function puts a 0x in front of their output.
